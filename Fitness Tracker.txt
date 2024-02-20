@@ -1,0 +1,30 @@
+# You can use a GUI library like Tkinter to create a user-friendly fitness tracker application.
+
+import tkinter as tk
+
+def record_exercise():
+    # Implement recording of exercise data
+    pass
+
+def track_progress():
+    # Implement tracking of fitness progress
+    pass
+
+def set_goals():
+    # Implement setting fitness goals
+    pass
+
+# Create GUI
+root = tk.Tk()
+root.title("Fitness Tracker")
+
+record_button = tk.Button(root, text="Record Exercise", command=record_exercise)
+record_button.pack()
+
+track_button = tk.Button(root, text="Track Progress", command=track_progress)
+track_button.pack()
+
+goal_button = tk.Button(root, text="Set Goals", command=set_goals)
+goal_button.pack()
+
+root.mainloop()
